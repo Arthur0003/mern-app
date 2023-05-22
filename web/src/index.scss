@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.mainWrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  main {
+    background: #cdd4e0;
+    flex-grow: 1;
+    padding: 30px;
+  }
+}
